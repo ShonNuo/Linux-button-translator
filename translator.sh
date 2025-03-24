@@ -17,7 +17,7 @@ show_text_on_screen() {
    
     local wrapped_text=$(echo "$text" | fold -s -w 80)
 
-    echo "$wrapped_text" | osd_cat --pos=top --align=right --delay=5 --font="-*-fixed-*-*-*-*-40-*-*-*-*-*-*-*" --color=green --outline=2 --shadow=5 --shadowcolour=pink --offset=1000 --indent=100
+    echo "$wrapped_text" | osd_cat --pos=top --align=right --delay=5 --font="-*-fixed-*-*-*-*-30-*-*-*-*-*-*-*" --color=green --outline=2 --shadow=5 --shadowcolour=pink --offset=100 --indent=100
 }
 
 
